@@ -1,4 +1,4 @@
-import scala.util.control.Breaks._
+import util.control.Breaks._
 
 val alku = readInt
 val loppu = readInt
