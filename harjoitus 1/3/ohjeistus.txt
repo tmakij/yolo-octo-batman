@@ -1,0 +1,5 @@
+- muuttujat m‰‰ritell‰‰n var ja val
+- val == "final var"
+- funktion m‰‰rittely tapahtuu def:ll‰ (def plus(x : Int, y : Int) = x + y)
+- Voidaan j‰tt‰‰ return pois jos se on selv‰
+- Voidaan j‰tt‰‰ aaltosulkeet jos funktion on yhen rivin mittainen
