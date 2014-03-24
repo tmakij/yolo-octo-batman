@@ -1,17 +1,4 @@
-yolo-octo-batman
+Scalan kotitehtävät
 ================
 
-Scalan kotitehtävät
-
 By Timo Mäki
-
-
-    \/   \/
-  \ ( - - )/
-   \ |__| /
-    \/  \/
-     |  |
-     \__/
-     |  |
-     |  |
-    _|  |_
