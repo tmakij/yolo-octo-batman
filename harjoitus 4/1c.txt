@@ -1,0 +1,10 @@
+val a=1; val b=2; val c=3;
+{ val b=4; val c=5;
+  { val c=6;
+    println(a +"/"+ b +"/"+ c);
+  }
+  println(a +"/"+ b +"/"+ c);
+}
+println(a +"/"+ b +"/"+ c)
+
+Sisin arvo aina korvaa ulomman arvon, eli syvimm‰ss‰ loopissa c on m‰‰ritelty 6, sit‰ edelt‰v‰ll‰ tasolla b on 4, ja ylimm‰ll‰ a 1. Keskitasolla b on 4, ja c on 5, ja sitten viel‰ uloimman a:n m‰‰ritys on 1. Uloimmalla tasolla otetaan suoraan arvot alun m‰‰rittelyist‰.

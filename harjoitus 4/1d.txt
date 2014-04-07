@@ -1,0 +1,13 @@
+def f(n: String, i: Int)  {println(n + ": " + i)}
+def g(n : String)(i : Int) {println(n + ": " + i)}
+
+f("yksi", 1)
+
+g("kaksi")(2)
+
+val h = g("kolme")(_)
+h(3)
+
+
+functio f on jaettu osiin, jolloin syntyy funktio funktiolle. Tällöin voidaan luoda osittain täytettyjä funktioita, h:n tyyliin.
+

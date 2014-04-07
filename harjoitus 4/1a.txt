@@ -1,0 +1,12 @@
+val lista = for (i <- 1 to 5; j <- i to 5; if i*j%2 != 0) yield(i*j)
+lista.foreach(println)
+
+1
+3
+5
+9
+15
+25
+
+lista on iteraattori, jota foreach käy läpi. For loopissa käydään läpi lukujen 1-5 kertoimet keskenään, ja palautetaan ne, jotka eivät ole parillisia.
+
